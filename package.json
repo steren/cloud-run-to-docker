@@ -1,0 +1,23 @@
+{
+  "name": "run-to-docker",
+  "version": "1.0.0",
+  "description": "A command-line utility to transform a Cloud Run service config to a docker command",
+  "main": "run-to-docker.js",
+  "scripts": {
+    "start": "node run-to-docker.cli.js",
+    "test": "node run-to-docker.test.js"
+  },
+  "keywords": [
+    "cloud",
+    "run",
+    "docker",
+    "local",
+    "development"
+  ],
+  "author": "Steren Giannini <steren.giannini@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "type": "module"
+}

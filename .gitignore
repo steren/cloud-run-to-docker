@@ -1,0 +1,22 @@
+# Logs
+logs
+*.log
+
+# Node.js related files
+node_modules/
+npm-debug.log*
+
+# Build artifacts
+build/
+dist/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Other files and folders
+.env
+.DS_Store
+Thumbs.db
